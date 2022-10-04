@@ -1,0 +1,414 @@
+@font-face {
+  font-family: barlow-bold;
+  src: url("./fonts/Barlow-Bold.ttf");
+}
+@font-face {
+  font-family: barlow-black;
+  src: url("./fonts/Barlow-Black.ttf");
+}
+@font-face {
+  font-family: barlow-medium;
+  src: url("./fonts/Barlow-Medium.ttf");
+}
+
+.keyboard-tablet,
+.orange-tablet,
+.keyboard-glass-tablet,
+.keyboard-desktop,
+.orange-desktop,
+.keyboard-glass-desktop,
+#photos-and-discription {
+  display: none;
+}
+
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 100vw;
+  overflow-x: hidden;
+  max-width: 2000px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header .logo {
+  margin-left: 24px;
+  margin-top: 27px;
+  width: 40px;
+  height: 40px;
+}
+
+header button {
+  font-family: barlow-bold;
+  font-size: 16px;
+  color: #162542;
+  background: #e8eff2;
+  margin-top: 23px;
+  margin-right: 24px;
+  padding: 11px 13px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+#start {
+  font-size: 16px;
+  margin-left: 24px;
+  margin-top: 45px;
+  width: 86%;
+}
+
+#start h1 {
+  font-family: barlow-black;
+  font-size: 3em;
+  color: #162542;
+}
+
+#start p {
+  font-family: barlow-medium;
+  color: #7b8bad;
+}
+
+#start .for-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  width: 300px;
+}
+
+.for-flex button {
+  font-family: barlow-bold;
+  color: white;
+  background: #f16718;
+  width: 150px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#photos {
+  margin: 50px auto;
+  width: 375px;
+}
+
+#photos .keyboard {
+  width: 325px;
+  height: 300px;
+  border-radius: 16px;
+  margin-left: 67px;
+}
+
+.orange {
+  width: 160px;
+  height: 200px;
+  background-color: #f16718;
+  border-radius: 16px;
+  margin-left: -30px;
+}
+
+.orange img {
+  opacity: 0.3;
+  width: 160px;
+  max-height: 100%;
+  border-radius: 16px;
+}
+
+.for-flex2 {
+  display: flex;
+  margin-top: 18px;
+}
+
+.keyboard-glass {
+  width: 200px;
+  border-radius: 16px;
+  margin-left: 18px;
+}
+
+#description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: barlow-black;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#description h2 {
+  font-size: 2em;
+  color: #162542;
+  width: 255px;
+}
+
+#description p {
+  color: #7b8bad;
+  line-height: 26px;
+  width: 327px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 111px auto;
+}
+
+#main div {
+  margin: auto;
+}
+
+#main img {
+  background: #f16718;
+  border-radius: 16px;
+}
+
+#main h3 {
+  font-family: barlow-black;
+  font-size: 26px;
+  color: #162542;
+  margin-top: 48px;
+}
+
+#main p {
+  font-family: barlow-medium;
+  font-size: 16px;
+  color: #7b8bad;
+  line-height: 26px;
+  width: 327px;
+  margin-bottom: 64px;
+}
+
+.compatible img {
+  padding: 22.45px 19.86px 22.31px 20px;
+}
+
+.bluetooth img {
+  padding: 19px 23.6px 18.14px 23.72px;
+}
+
+.battery img {
+  padding: 23.33px 17.01px 21.67px 16px;
+}
+
+.light img {
+  padding: 16px 17px 17px 16px;
+}
+
+footer p {
+  font-family: barlow-medium;
+  font-size: 16px;
+  color: #7b8bad;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 750px) {
+  .keyboard,
+  .orange,
+  .keyboard-glass {
+    display: none;
+  }
+
+  .keyboard-tablet,
+  .orange-tablet,
+  .keyboard-glass-tablet {
+    display: initial;
+  }
+
+  header .logo {
+    margin-left: 39px;
+  }
+
+  header button {
+    margin-right: 40px;
+    width: 175px;
+    height: 58px;
+  }
+
+  #start {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 100px auto;
+  }
+
+  .for-margin {
+    margin-left: 39px;
+  }
+
+  #start h1 {
+    width: 339px;
+  }
+
+  #start .text {
+    width: 339px;
+  }
+
+  #start .for-flex {
+    width: 340px;
+  }
+
+  .for-flex p {
+    margin-left: 37px;
+  }
+
+  .keyboard-tablet {
+    height: 350px;
+    max-width: 350px;
+    border-radius: 16px;
+    margin-left: -50px;
+  }
+
+  #photos {
+    width: 90%;
+  }
+
+  #photos .for-flex2 {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .orange-tablet {
+    width: 200px;
+    height: 300px;
+    margin-left: 5px;
+    border-radius: 16px;
+    background-color: #f16718;
+  }
+
+  .orange-tablet img {
+    width: 200px;
+    height: 300px;
+    border-radius: 16px;
+    opacity: 0.3;
+  }
+
+  #photos .keyboard-glass-tablet {
+    width: 420px;
+    height: 300px;
+    margin-left: 40px;
+    border-radius: 16px;
+  }
+
+  #description {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+
+  #main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 700px;
+  }
+
+  #main p {
+    width: 281px;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .keyboard-tablet,
+  .keyboard-glass-tablet,
+  .orange-tablet,
+  #photos,
+  #description {
+    display: none;
+  }
+
+  .keyboard-desktop,
+  .keyboard-glass-desktop,
+  .orange-desktop,
+  .photos-and-discription,
+  #photos-and-discription #description {
+    display: initial;
+  }
+
+  header .logo {
+    margin-left: 170px;
+  }
+
+  header button {
+    margin-right: 160px;
+  }
+
+  .for-margin {
+    margin-left: 170px;
+  }
+
+  .keyboard-desktop {
+    height: 400px;
+    max-width: 100%;
+    border-radius: 16px;
+    margin-right: 160px;
+  }
+
+  #photos-and-discription {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .orange-desktop {
+    width: 230px;
+    height: 450px;
+    border-radius: 16px;
+    background-color: #f16718;
+  }
+
+  .orange-desktop img {
+    width: 230px;
+    height: 450px;
+    border-radius: 16px;
+    opacity: 0.3;
+  }
+
+  .keyboard-glass-desktop {
+    min-width: 380px;
+    height: 450px;
+    border-radius: 16px;
+    margin-left: 20px;
+  }
+
+  #description {
+    flex-direction: column;
+    align-items: start;
+    margin-top: 0px;
+    margin-left: 150px;
+  }
+
+  #photos-and-description p {
+    width: 255px;
+  }
+
+  #main {
+    width: 80%;
+    margin: 130px auto;
+  }
+
+  #main div {
+    width: 255px;
+  }
+
+  #main p {
+    width: 255px;
+  }
+
+  header button:hover {
+    color: white;
+    background: #162542;
+  }
+
+  #start button:hover {
+    opacity: 0.5;
+  }
+}
